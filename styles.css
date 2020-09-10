@@ -1,44 +1,50 @@
+/* Styling */
+
+/* BACKGROUND */
 body {
-    background-color: #002b36;
+    background-color: #E3D6CD;
 }
 
-.site {
-    max-width: 620px;
+/* CONTENT AREA */
+.site-content {
+    /* max-width: 620px; */
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
+/* FONTS */
 h1 {
-    font-family:
-        "SFMono-Regular",
-        Consolas,
-        "Liberation Mono",
-        Menlo,
-        Courier,
-        monospace;
-    text-align: center;
-    font-size: 4rem;
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: left;
+    font-size: 6rem;
     font-weight: 900;
-    letter-spacing: 0.1em;
-    color: #d33682;
-    margin-bottom: 0;
+    letter-spacing: 0.05em;
+    color: #C0958C;
+    margin-bottom: 50px; /* SHORT TERM */
 }
+
+h1:hover {
+  color: #525647;
+  text-decoration: line-through;
+}
+
 h2,h3,h4,h5,h6 {
-  font-family:
-      "SFMono-Regular",
-      Consolas,
-      "Liberation Mono",
-      Menlo,
-      Courier,
-      monospace;
-  font-weight: 100;
-  color: #859900;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 200;
+  color: #525647;
 }
 
 h2 {
-  text-align: center;
-  font-size: 2rem;
+  text-align: left;
+  font-size: 3rem;
   margin-top: 0;
+}
+
+h2:hover {
+  color: #C0968C;
+  text-decoration: line-through;
 }
 
 h3 {
@@ -47,10 +53,7 @@ h3 {
 
 p, ul, li {
   font-family:
-      "SFMono-Regular",
-      Consolas,
-      "Liberation Mono",
-      Menlo,
+      "Times New Roman", Times, serif;
       Courier,
       monospace;
   font-size: 1.25rem;
@@ -71,21 +74,25 @@ li span {
 }
 
 a {
-  color: #b58900;
+  color: #525647;
   text-decoration: none;
 }
+
 a:hover {
-  color: #cb4b16;
+  color: #000000;
 }
 
-.nameplate {
-  margin-bottom: 4rem;
+/* HTML CLASSES */
+.top-content {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .section {
   margin: 4rem 0;
 }
 
+/* MOBILE SETTINGS */
 @media screen and (max-width: 768px) {
   h1 {font-size: 2.5rem; line-height: 1.5}
   h2 {font-size: 1.75rem;}
