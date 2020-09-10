@@ -2,9 +2,8 @@
 https://keybase.io/tylrfishr
 --------------------------------------------------------------------
 
-I hereby claim:
+123
 
-  * I am an admin of https://tylerjfisher.com
   * I am tylrfishr (https://keybase.io/tylrfishr) on keybase.
   * I have a public key with fingerprint 02CC 8F1D CD3F 9F3E 9043  573E C4F9 D233 89B2 E288
 
