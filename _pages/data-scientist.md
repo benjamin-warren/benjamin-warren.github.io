@@ -1,7 +1,6 @@
 ---
 title: Data Scientist
 subtitle: Statitician, Coder and Communicator.
-featured_image: /images/social-new.jpg
 ---
 
 ### In 2020, I will graduate with a Bachelor of Data Science and Decisions from UNSW.
