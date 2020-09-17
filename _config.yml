@@ -1,6 +1,6 @@
 site: Ben Warren
 
-url: 
+url:
 baseurl:
 
 collections:
@@ -20,24 +20,35 @@ defaults:
       path: ""
     values:
       layout: "default"
+      featured_image: /images/social_new.jpg
   -
     scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
+      featured_image: /images/social_new.jpg
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      featured_image: /images/social_new.jpg
   -
     scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
+      featured_image: /images/social_new.jpg
+  -
+    scope:
+      path: ""
+      type: "home"
+    values:
+      layout: "home"
+      featured_image: /images/social_new.jpg
 
 markdown: kramdown
 highlighter: rouge
