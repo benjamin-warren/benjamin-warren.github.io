@@ -208,9 +208,13 @@ footer.footer {
 }
 
 // Menu Background
-.header--main .header__menu {
-    background-color: transparent !important;
+@media only screen and (min-width: 768px) {
+  .header--main .header__menu {
+      background-color: transparent !important;
+  }
 }
+
+
 
 // Menu Button Text Colour
 a.header__cta.button--fill.contact-trigger.js-contact {
