@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!-- JAVA SCRIPT (Loaded) -->
+<script async src="{{ 'assets/js/test.js' | relative_url }}"></script>
+<script async src="{{ 'assets/js/charming.min.js' | relative_url }}"></script>
+<script async src="{{ 'assets/js/TweenMax.min.js' | relative_url }}"></script>
+<script async src="{{ 'assets/js/demo3.js' | relative_url }}"></script>
+
+<!-- CSS (Loaded) -->
+<link rel="stylesheet" href="{{ 'assets/css/test.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ 'assets/css/base.css' | relative_url }}" />
+<link href="https://fonts.googleapis.com/css?family=Prata|Nunito+Sans" rel="stylesheet">
+
+<!-- HTML -->
+<body class="demo-3">
+		<div class="content">
+
+			<!-- IMAGE SETUP -->
+			<svg class="distort" width="350" height="450" viewBox="0 0 350 450">
+				<filter id="distortionFilter">
+					<feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+					<feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+				</filter>
+				<g filter="url(#distortionFilter)">
+					<image class="distort__img" x="50" y="50" xlink:href="{{ 'assets/img/1.jpg' | relative_url }}" height="350" width="250"/>
+					<image class="distort__img" x="50" y="50" xlink:href="{{ 'assets/img/2.jpg' | relative_url }}" height="350" width="250"/>
+					<!-- <image class="distort__img" x="50" y="50" xlink:href="{{ 'assets/img/3.jpg' | relative_url }}" height="350" width="250"/>
+					<image class="distort__img" x="50" y="50" xlink:href="{{ 'assets/img/4.jpg' | relative_url }}" height="350" width="250"/> -->
+				</g>
+			</svg>
+
+      <!-- TEXT -->
+			<blockquote class="quote">
+        Hello, <br>I'm Ben<br>Warren.
+				<br><br>
+        I am a <br><a href="/data-scientist" class="quote__link">Data<br>Scientist</a>.
+				<br><br>
+        I am also a <br><a href="http://www.wazza.studio" class="quote__link">Wedding<br>Photographer</a>.
+			</blockquote>
+
+		</div>
+</body>

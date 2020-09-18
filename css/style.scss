@@ -225,7 +225,10 @@ a.header__cta.button--fill.contact-trigger.js-contact {
 
 // Footer Title Hover Colour
 a.footer__title.active-link:hover {
-  color: white;
+  color: white !important;
+}
+a.footer__title:hover {
+  color:white !important;
 }
 
 // Footer Social Icons
