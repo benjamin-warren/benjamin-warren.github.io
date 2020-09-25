@@ -7,7 +7,7 @@ subtitle: Statitician, Coder and Communicator.
 <br>
 ### This Degree has taught me how to critically reason, interrogate data and present my findings effectively.
 <br>
-### I have learnt to code in R, STATA, SQL, Python, C, HTML and CSS.
+### I have learnt to code in R, Latex, STATA, SQL, Python, C, HTML and CSS.
 <br>
 ### I have analysed data from [Mission Australia][Mission Australia], [Google][Google], and [Australia’s Integrated Marine Observing System][AODN].
 
