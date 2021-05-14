@@ -13,5 +13,5 @@ featured_image: /images/social.jpg
 
 
 
-[Data Scientist]: /data-scientist
+[Data Scientist]: /https://www.linkedin.com/in/ben-warren-data-consultant/
 [Weddings]: https://www.wazza.studio
