@@ -33,9 +33,9 @@ contact_settings:
   send_button_text: 'Get in Touch'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/benwarren123'
+  facebook_url: ''
   twitter_url: ''
-  instagram_url: 'https://www.instagram.com/wazzastudio/'
+  instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -61,12 +61,12 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#E3D6CD'
+  background_color: '#f0e8e4'
   background_alt_color: '#ffffff'
   text_dark_color: '#222222'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#C0958C'
+  accent_color: '#8a2000'
   border_color: '#ECEDEF'
   error_color: '#D64541'
 
